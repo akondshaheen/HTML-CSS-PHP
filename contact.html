@@ -1,0 +1,76 @@
+ <!--all the data entered in the contact form will send to process.php file-->
+        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body id="contact">
+   <div class="container">
+    <header class="header">
+       <a href="/">Akond's Website</a>
+    
+    </header>
+       
+    
+    <nav class="Menu">
+       <!--&nbsp; is used for creating space-->
+       <a href="/">Home</a>&nbsp;&nbsp;&nbsp;
+       <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;
+       <a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+       </nav>
+       
+       
+    <aside>
+       <h1>Side Bar</h1>
+       </aside>
+       
+         
+       <article class="main">
+       <h1 class="contact-heading">Contact</h1>
+    <div id="form">
+           
+       <form action="process.php"></form>
+       
+        <p>
+       <label for="name">Name:</label>
+       <input type="text" name="name" placeholder="Your Name" required>
+       </p>
+       
+        <p>
+        <label for="name">Email::</label>
+        <input type="email" placeholder="Your Email" required>
+        </p>
+        
+        <p>
+        <label for="name">Subject:</label>
+        <input type="text" name="subject" placeholder="Message Subject" required>
+        </p>
+        
+        <p>
+        <label for="message"></label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea >
+        </p> 
+        <p>
+        <input id="submit" type="submit" name="submit" value="Send Message" required>
+           
+        </p>
+           
+        </div>      
+           
+       </article>
+       
+       
+       
+     <footer>
+       &copy;2030 akond's website &nbsp;<span class="separator">|</span>Design by Akond <a href="http://www.akondshaheen.com">Shaheen Akond</a>
+       
+       
+       </footer>
+    </div> 
+</body>
+
+</html>
